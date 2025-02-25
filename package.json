@@ -1,0 +1,19 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "baileys": "^6.7.13",
+    "bot-whatsapp": "file:",
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4",
+    "yarn": "^1.22.22"
+  }
+}
