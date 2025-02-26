@@ -1,9 +1,9 @@
 # 🚀 WhatsApp Self-Bot | Automatisation & Modération 🤖  
 
-![GitHub Repo Stars](https://img.shields.io/github/stars/ton-repo?style=for-the-badge)
-![GitHub Forks](https://img.shields.io/github/forks/ton-repo?style=for-the-badge)
-![GitHub Issues](https://img.shields.io/github/issues/ton-repo?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/ton-repo?style=for-the-badge)
+![GitHub Repo Stars](https://img.shields.io/github/stars/Self-Bot-Whatsapp?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/Self-Bot-Whatsapp?style=for-the-badge)
+![GitHub Issues](https://img.shields.io/github/issues/Self-Bot-Whatsapp?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/Self-Bot-Whatsapp?style=for-the-badge)
 
 ## 🔥 Fonctionnalités  
 
@@ -19,7 +19,7 @@
 
 ### 1️⃣ Cloner le dépôt  
 ```bash
-git clone https://github.com/ton-user/ton-repo.git
+git clone https://github.com/JessyTS/Self-Bot-Whatsapp.git
 cd ton-repo
 ```
 
@@ -77,4 +77,4 @@ Ce projet est sous licence **MIT**. Libre à toi de l’utiliser et de le modifi
 
 ---
 
-🔥 *Développé avec passion ❤️ par [Ton Nom](https://github.com/ton-user)*
+🔥 *Développé avec passion ❤️ par [Jessy Tshiaba](https://github.com/JessyTS)*
