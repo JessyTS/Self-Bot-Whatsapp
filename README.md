@@ -20,7 +20,7 @@
 ### 1️⃣ Cloner le dépôt  
 ```bash
 git clone https://github.com/JessyTS/Self-Bot-Whatsapp.git
-cd ton-repo
+cd Self-Bot-Whatsapp
 ```
 
 ### 2️⃣ Installer les dépendances  
@@ -28,17 +28,10 @@ cd ton-repo
 npm install  # ou yarn install
 ```
 
-### 3️⃣ Configurer le bot  
+### 3️⃣ Lancer le bot  
 Modifie le fichier `.env` avec tes informations :  
-```env
-SESSION=ton_token
-PREFIX=!
-OWNER=+1234567890
-```
-
-### 4️⃣ Lancer le bot  
 ```bash
-npm start  # ou node index.js
+npm start  # ou node app.js
 ```
 
 ---
@@ -49,21 +42,6 @@ npm start  # ou node index.js
 |----------------|------------|
 | `!help`        | Affiche la liste des commandes |
 | `!info`        | Donne des détails sur le bot |
-| `!ban @user`   | Bannit un utilisateur |
-| `!kick @user`  | Expulse un utilisateur |
-| `!stats`       | Affiche les statistiques du bot |
-
----
-
-## 🛠 Développement  
-
-Tu veux améliorer le projet ? Fork le repo, ajoute tes modifications et fais une **pull request** ! 😊  
-
-```bash
-git checkout -b ma-fonctionnalite
-git commit -m "Ajout d'une nouvelle fonctionnalité"
-git push origin ma-fonctionnalite
-```
 
 ---
 
