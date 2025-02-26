@@ -1,9 +1,9 @@
 # 🚀 WhatsApp Self-Bot | Automatisation & Modération 🤖  
 
-![GitHub Repo Stars](https://img.shields.io/github/stars/Self-Bot-Whatsapp?style=for-the-badge)
-![GitHub Forks](https://img.shields.io/github/forks/Self-Bot-Whatsapp?style=for-the-badge)
-![GitHub Issues](https://img.shields.io/github/issues/Self-Bot-Whatsapp?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/Self-Bot-Whatsapp?style=for-the-badge)
+![GitHub Repo Stars](https://img.shields.io/github/stars/JessyTS/Self-Bot-Whatsapp?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/JessyTS/Self-Bot-Whatsapp?style=for-the-badge)
+![GitHub Issues](https://img.shields.io/github/issues/JessyTS/Self-Bot-Whatsapp?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/JessyTS/Self-Bot-Whatsapp?style=for-the-badge)
 
 ## 🔥 Fonctionnalités  
 
