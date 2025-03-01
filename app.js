@@ -41,16 +41,19 @@ async function connectToWhatsApp() {
         let m = event.messages[0]
         if (!m.message || !m.key.remoteJid) return
         if (m.key.fromMe) return
-
-        if (m.key.remoteJid && m.key.remoteJid.includes("@g.us")) {
-            let text = (m.message.extendedTextMessage) ? m.message.extendedTextMessage.text.trim().toLowerCase() : m.message.conversation.trim().toLowerCase()
-            if (verifLien(text)) {
-                await sock.sendMessage(m.key.remoteJid, {
-                    text: "Oups ! 😅 Ce lien a été supprimé. N'oubliez pas, les liens externes ne sont pas autorisés ici. Merci de votre compréhension !\n \n> Kira",
-                }, { quoted: m })
-                await sock.sendMessage(m.key.remoteJid, { delete: m.key })
-            }
-        }
+        const groups = await sock.groupFetchAllParticipating()
+        console.log(groups)
+        // if (m.key.remoteJid && m.key.remoteJid.includes("@g.us")) {
+            // let text = (m.message.extendedTextMessage) ? m.message.extendedTextMessage.text.trim().toLowerCase() : m.message.conversation.trim().toLowerCase()
+            // if (verifLien(text)) {
+                // await sock.sendMessage(m.key.remoteJid, {
+                //     text: "Oups ! 😅 Ce lien a été supprimé. N'oubliez pas, les liens externes ne sont pas autorisés ici. Merci de votre compréhension !\n \n> Kira",
+                // }, { quoted: m })
+                // await sock.sendMessage(m.key.remoteJid, { delete: m.key })
+                // await sock.sendMessage("243839264674@s.whatsapp.net", { text: m.key.remoteJid })
+                // await sock.sendMessage("1234@s.whatsapp.net", { forward: msg });
+            // }
+        // }
     })
 
     sock.ev.on('creds.update', saveCreds)

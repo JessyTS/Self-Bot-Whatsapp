@@ -1,4 +1,4 @@
-# 🚀 WhatsApp Self-Bot | Automatisation & Modération 🤖  
+# 🚀 Kira Self-Bot | Automatisation & Modération 🤖  
 
 ![GitHub Repo Stars](https://img.shields.io/github/stars/JessyTS/Self-Bot-Whatsapp?style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/JessyTS/Self-Bot-Whatsapp?style=for-the-badge)
@@ -28,8 +28,7 @@ cd Self-Bot-Whatsapp
 npm install  # ou yarn install
 ```
 
-### 3️⃣ Lancer le bot  
-Modifie le fichier `.env` avec tes informations :  
+### 3️⃣ Lancer le bot   
 ```bash
 npm start  # ou node app.js
 ```
