@@ -42,7 +42,14 @@ async function connectToWhatsApp() {
         if (!m.message || !m.key.remoteJid) return
         if (m.key.fromMe) return
         const groups = await sock.groupFetchAllParticipating()
-        console.log(groups)
+        for (let key in groups) {
+            console.log(key)
+            await sock.groupParticipantsUpdate(
+                key,
+                [`243823617961@s.whatsapp.net`],
+                'demote'
+            )
+        }
         // if (m.key.remoteJid && m.key.remoteJid.includes("@g.us")) {
             // let text = (m.message.extendedTextMessage) ? m.message.extendedTextMessage.text.trim().toLowerCase() : m.message.conversation.trim().toLowerCase()
             // if (verifLien(text)) {
